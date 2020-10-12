@@ -39,10 +39,16 @@
 	background: yellow;
 }
 
-h1 {color: royalblue; }
+h1 {color: rgb(225, 182, 65); }
 
-body { 	background-color: black }
+/*body { 	background-color: black }*/
 
 .contents {
 display: flex;
+}
+
+div div {
+
+  display: inline-block;
+
 }
