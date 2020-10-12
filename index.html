@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="test.css">
+<title>POST_SAMPLE</title>    
+</head>
+<body>
+<?php
+if(isset($_POST['red'])) {?>
+    <h1>混雑しています</h1>
+    <div class="contents">
+        <div class="circlegray"></div>
+       
+       <div class="circlegray"></div>
+       
+       <div class="circlered"></div>
+       </div>
+    
+    <?php } else if(isset($_POST['yellow'])) {?>
+
+        <h1>少し混んでいます</h1>
+
+<div class="contents">
+ <div class="circlegray"></div>
+
+<div class="circleyellow"></div>
+
+<div class="circlegray"></div>
+</div>
+        
+        <?php } else {?>
+
+            <h1>空いています</h1>
+
+            <div class="contents">
+              <div class="circlegreen"></div>
+             
+             <div class="circlegray"></div>
+             
+             <div class="circlegray"></div>
+             </div>
+            
+            <?php }
+?>
+
+</form>
+</body>
+</html>
